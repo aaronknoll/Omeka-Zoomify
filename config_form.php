@@ -1,7 +1,8 @@
 <div class="field">
-	<label for="per_page">Number of Questions per Item</label>
+	<label for="storage_directory">URL of the Storage Directory</label>
 	<div class="inputs">
-	<input type="text" class="textinput"  name="per_page" size="4" value="<?php echo get_option('focusq_per_page'); ?>" id="per_page" />
-	<p class="explanation">The number of questions available per item. No max, recommended 5 or less. </p>
+	<input type="text" class="textinput"  name="storage_directory" size="80" value="<?php echo get_option('zoomify_storage_directory'); ?>" id="storage_directory" />
+	<p class="explanation">This is the directory on the server where you
+		are storing your zoomify HTML and IMG files.</p>
 	</div>
 </div>
